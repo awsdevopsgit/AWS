@@ -1,0 +1,15 @@
+VPC is virtual network dedicated to your aws account.
+it is logically isolated from other virtual nerworks in your aws cloud.
+SUBNET is the range of IP addresses in your VPC.
+you can launch your aws resources into your selected subnent.
+use public subnet for the resources that connected to the internet.
+use private subnet for the resources that are not connected to the internet.
+A ROUTING TABLE contains set of rules called routes, that are used to determine where network traffic is directed.
+each subnet in your VPC must be associated with the route table, the table controls the routing for the subnet.
+A subnet can be associated with the one routing table at a time. but you can associated multiple subnet for the same routing table.
+INTERNET GATEWAY is a horizontally scaled, redundant and highly available VPC component that allow communications between instances in your VPC and the internet.
+It therefore imposes no availability risk and bandwidth constraints on your network traffic.
+An IGW serve two purposes:
+  Provide a target in your VPC route tables for internet-routable traffic.
+  Perofrm NETWOK ADDRESS TRANSLATION(NAT) for the instances that have been assigned public IP addresses.
+  DNS Hostname=FQDN(Fully Qualified Domain Name) 
