@@ -1,0 +1,3 @@
+Install aws cli in your local, now the .aws folder will be created in the user home directory
+to connect to the aws from windows cli run the below command in your windows cli
+#aws configure and provide access key and secrete key which is downloaded from the aws console.
