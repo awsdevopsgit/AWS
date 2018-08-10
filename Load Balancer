@@ -1,0 +1,4 @@
+Classic load balancer is distributed the traffic which its get from the user equally to all the available server
+CLB has no inteligence that to devert traffic according to the user search and need.
+ALB distributed the traffic to all the servers according to the user search
+ALB has inteligence
